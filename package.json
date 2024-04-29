@@ -1,0 +1,29 @@
+{
+	"name": "@skolaris/knockout-tools",
+	"description": "Support tools for KnockoutJS-based UIs",
+	"version": "1.0.0",
+	"license": "MIT",
+	"keywords": [
+		"knockout",
+		"UI"
+	],
+	"main": "tools.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skolaris/knockout-tools.git"
+	},
+	"author": "Martin Klemsa",
+	"peerDependencies": {
+		"knockout": "^3.5.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bugs": {
+		"url": "https://github.com/skolaris/knockout-tools/issues"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"homepage": "https://github.com/skolaris/knockout-tools#readme"
+}

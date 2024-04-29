@@ -1,2 +1,2 @@
 # knockout-tools
-Support JS tools for KnockoutJS-based UIs
+Support tools for KnockoutJS-based UIs
