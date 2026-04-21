@@ -13,16 +13,6 @@
 	}
 }(typeof self !== 'undefined' ? self : this, function() {
 	return {
-		//returns a random GUID
-		'getGuid': function() {
-			return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
-				const r = Math.random() * 16 | 0,
-					v = c == 'x' ? r : (r & 0x3 | 0x8);
-
-				return v.toString(16);
-			});
-		},
-
 		//Reads 'enable' and 'disable' properties of given params from KO component binding
 		//and returns a computed observable indicating whether to enable the component (such as a textfield or a checkbox)
 		'isComponentEnabled': function(params) {
